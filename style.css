@@ -1,0 +1,168 @@
+/* Applies to everything on all pages */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-image: url(white-carbon.png);
+    background-repeat: repeat;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1%;
+}
+
+/* Header */
+header {
+    height: 200px;
+    background-color: rgba(145, 145, 145, 0.75);
+    position: relative;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+}
+
+/* Name box within the Header */
+h1 {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    color: white;
+    width: auto;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36pt;
+    letter-spacing: 6px;
+}
+
+/* Navigation Bar */
+div.navigation {
+    font-size: 16px;
+    text-align: right;
+    margin-right: 4%;
+    margin-top: 20%;
+}
+
+a:link {
+    color: white;
+    
+}  
+
+a:vistied {
+    color: white;
+}
+
+a:hover {
+    color: black;
+    font-weight: bold;
+}
+  
+a:active {
+    color: white;
+}
+/* End Navigation Bar */
+
+/* Applies to all images */
+img {
+    border-style: solid;
+    border-color: rgba(145, 145, 145, 1);
+}
+
+/* About Me */
+div.about-box {
+    margin: 2%;
+    padding: 2%;
+    height: 420px;
+    border-style: solid;
+    border-color: rgba(145, 145, 145, 1);
+    padding: 1%;
+}
+
+div.about-me {
+    text-align: left;
+    padding-right: 5%;
+}
+
+div.about-image img {
+    float: left;
+    max-width:25%;
+    height:auto;
+    border: none; 
+}
+
+div.about-text {
+    text-align: left;
+}
+/* End About Me */
+
+/* Contact */
+div.contact-form {
+    text-align: left;
+    text-indent: 25px;
+    height: 420px;
+    margin: 2%;
+    padding: 2%;
+    border: solid;
+    border-color: rgba(145, 145, 145, 1);
+    border-width: 1px;
+}
+
+div.input-box{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10%;
+}
+
+div input{
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 25%;
+}
+
+div.message input {
+    margin: 3%;
+    width: 96%;
+    height: 100px;
+}
+/* End Contact */
+
+/* Portfolio */
+div.portfolio {
+    height: 420px;
+    margin: 2%;
+    padding: 2%;
+    border: solid;
+    border-color: rgba(145, 145, 145, 1);
+    border-width: 1px;
+}
+
+div.icon {
+    float: left;
+    width: 33%;
+    height: 33%;
+}
+
+div.icon img {
+    background-color: rgba(145, 145, 145, .5);
+    max-width: 75%;
+    height: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* End Portfolio */
+
+/* Footer */
+footer {
+    clear: both;
+    height: 5%;
+    background-color: rgba(145, 145, 145, .75);
+    padding: 1%;
+    text-align: center;
+    font-size: 8pt;
+}
+/* End Footer */
