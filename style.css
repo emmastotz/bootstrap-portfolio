@@ -1,0 +1,68 @@
+body {
+  background-image: url(white-carbon.png);
+  background-repeat: repeat;
+}
+
+h1 {
+  font-size: 20pt;
+  border-bottom: 1px;
+  text-align: center;
+}
+
+img{
+  float:left;
+}
+
+/* .clearfix {
+  overflow: auto;
+} */
+
+/* div.about-text {
+  text-align: left;
+} */
+
+/* Portfolio Cards */
+p.card-text {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+a.btn {
+  background-color: rgb(70, 70, 70);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10pt;
+  align-content: center;
+  outline-color: black;
+}
+
+/* Psuedo-Classes for Buttons? */
+a.btn:link {
+  color: rgb(255, 255, 255);
+}
+
+a.btn:visited {
+  color: rgb(255, 255, 255);
+}
+
+a.btn:hover {
+  color: black;
+}
+
+a.btn:active {
+  color: black;
+}
+
+/* Footer (basically only thing that is working) */
+footer {
+  text-align: center;
+  font-size: 8pt;
+  color: rgb(201, 201, 201);
+  background-color: rgb(50, 50, 50);
+  padding: 22px;
+}
+
+
+
