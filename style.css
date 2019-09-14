@@ -4,22 +4,16 @@ body {
 }
 
 h1 {
+  /* Isn't changing the font or adding the bottom border. Not sure why.
   font-size: 20pt;
-  border-bottom: 1px;
+  border-bottom: 1px; 
+  */
   text-align: center;
 }
 
 img{
-  float:left;
+  float: left;
 }
-
-/* .clearfix {
-  overflow: auto;
-} */
-
-/* div.about-text {
-  text-align: left;
-} */
 
 /* Portfolio Cards */
 p.card-text {
@@ -38,7 +32,17 @@ a.btn {
   outline-color: black;
 }
 
-/* Psuedo-Classes for Buttons? */
+/* Attempt to format the portfolio cards - doesn't work.
+div.card {
+  float: left;
+}
+
+.clearfix {
+  overflow: auto;
+} 
+*/
+
+/* Psuedo-Classes for Buttons */
 a.btn:link {
   color: rgb(255, 255, 255);
 }
@@ -55,7 +59,7 @@ a.btn:active {
   color: black;
 }
 
-/* Footer (basically only thing that is working) */
+/* Footer */
 footer {
   text-align: center;
   font-size: 8pt;
