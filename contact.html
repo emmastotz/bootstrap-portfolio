@@ -2,45 +2,56 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
-        <title>Contact</title>
-        
+        <title>Contact Me</title>
+    
+        <!-- Bootstrap CDN -->
+        <link <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <!-- Personal style sheet -->
         <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!-- Google Fonts link -->
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Sans|Manjari|Montserrat|Oswald&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <div id="wrapper">
-            <header>
-                <h1>EMMA STOTZ</h1>
-                <div class="navigation";>
-                    <p><a href="index.html">ABOUT ME</a> | <a href="portfolio.html">PORTFOLIO</a> | <a href="contact.html">CONTACT</a></p>
+        <!-- Fluid Container -->
+        <div class="container-fluid">
+            <!-- Header/Nav Bar -->
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#">EMMA STOTZ</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                        <a class="nav-link" href="index.html">about me</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="portfolio.html">portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">contact me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-            </header>
-
-            <div class="contact-form">
-              <form>
-                <div class="name">
-                    Name:<br>
-                    <input type="text" name="name"><br>
-                </div>
-                <div class="email">
-                    Email:<br>
-                    <input type="text" name="email"><br>
-                </div>
-                <div class="phone">
-                    Phone Number:<br>
-                    <input type="text" name="phone"><br>
-                </div>
-                <div class="message">
-                    Reason:<br>
-                    <input type="text" name="message"><br>
-                </div>
-              </form>
             </div>
-        
-            <footer>
-                <p>copyright</p>
-            </footer>
         </div>
+
+        <!-- Regular Container -->
+        <div class="container">
+        <!-- Contact Form -->
+            <div class="row">
+                <div class="col-12">
+                    <!-- Enter Contact Form here -->
+                </div>
+            </div>
+        </div>   
     </body>
 </html>
