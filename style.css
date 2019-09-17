@@ -15,6 +15,10 @@ img{
   float: left;
 }
 
+div.jumbotron {
+  background-color: rgb(155, 155, 155);
+}
+
 /* Portfolio Cards */
 p.card-text {
   text-align: center;
@@ -31,16 +35,6 @@ a.btn {
   align-content: center;
   outline-color: black;
 }
-
-/* Attempt to format the portfolio cards - doesn't work.
-div.card {
-  float: left;
-}
-
-.clearfix {
-  overflow: auto;
-} 
-*/
 
 /* Psuedo-Classes for Buttons */
 a.btn:link {
@@ -68,5 +62,10 @@ footer {
   padding: 22px;
 }
 
-
+/* Media Query */
+/* @media screen and (max-width: 460px) {
+  .mininav {
+    
+  }
+} */
 
