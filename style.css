@@ -4,10 +4,10 @@ body {
 }
 
 h1 {
-  /* Isn't changing the font or adding the bottom border. Not sure why.
-  font-size: 20pt;
-  border-bottom: 1px; 
-  */
+  text-align: center;
+}
+
+li {
   text-align: center;
 }
 
