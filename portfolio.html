@@ -1,150 +1,240 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>Portfolio</title>
-    
-        <!-- jQuery CDN -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>
+  <head>
+      <meta charset="UTF-8">
+      <title>Emma Stotz</title>
+  
+      <!-- jQuery CDN -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+      
+      <!-- Bootstrap CDN -->
+      <link <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+      <!-- Personal style sheet -->
+      <link rel="stylesheet" type="text/css" href="style.css">
+
+      <!-- Google Fonts link -->
+      <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Sans|Manjari|Montserrat|Oswald&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Fluid Container 1 -->
+    <div class="container-fluid1">
         
-        <!-- Bootstrap CDN -->
-        <link <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-        <!-- Personal style sheet -->
-        <link rel="stylesheet" type="text/css" href="style.css">
-
-        <!-- Google Fonts link -->
-        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Sans|Manjari|Montserrat|Oswald&display=swap" rel="stylesheet">
-    </head>
-
-    <body>
-        <!-- Fluid Container 1 -->
-        <div class="container-fluid1">
-            
-            <!-- Header -->
-            <div class="row">
-                <div class="col-sm-12">
-                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
-                        <a class="navbar-brand" href="#">EMMA STOTZ</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </nav>
-                </div>
+      <!-- Header -->
+      <div class="row">
+        <div class="col-sm-12">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+            <a class="navbar-brand" href="#">EMMA STOTZ</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </nav>
+        </div>
+      </div>
+      
+      <!-- Nav Bar -->
+      <div class="row">
+        <div class="col-sm-12">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">about me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">contact me</a>
+                </li>
+              </ul>
             </div>
-            
-            <!-- Nav Bar -->
-            <div class="row">
-                <div class="col-sm-12">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">about me</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="portfolio.html">portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">contact me</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  <!-- End Fluid Container 1 -->
+
+  <!-- Regular Container -->
+  <div class="container-portfolio">
+    <div class="jumbotron">
+      <div class="container">
+              
+        <!-- First Row -->
+        <div class="row">
+          
+          <!-- Portfolio Card 1 -->
+          <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
+            <img src="assets/images/Portfolio-Icons_Hangman.png" class="card-img-top" alt="Replace the Space">
+            <div class="card-body">
+              <h5 class="card-title">Replace the Space</h5>
+              <p class="card-text">Spaced-themed hangman. Find out if you can win in a game of Replace the Space?</p>
+              <a href="https://emmastotz.github.io/replace-the-space/" class="btn btn-primary">SEE PROJECT</a>
+            </div>
+          </div>
+
+          <!-- Portfolio Card 2 -->
+          <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
+            <img src="assets/images/Portfolio-Icons_Trivia.png" class="card-img-top" alt="Trivia">
+            <div class="card-body">
+              <h5 class="card-title">Trivia</h5>
+              <p class="card-text">How much do you know about everyone's favorite sitcom 'Friends'?</p>
+              <a href="https://emmastotz.github.io/trivia-game/" class="btn btn-primary">SEE PROJECT</a>
+            </div>
+          </div>
+              
+          <!-- Portfolio Card 3 -->
+          <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
+            <img src="assets/images/portfolio-icons_gem-collector.png" class="card-img-top" alt="Gem Collector">
+            <div class="card-body">
+              <h5 class="card-title">Gem Collector</h5>
+              <p class="card-text">Click on the crystals to match the number. Be careful, if you go over, you lose.</p>
+              <a href="https://emmastotz.github.io/crystal-collector/" class="btn btn-primary">SEE PROJECT</a>
+            </div>
+          </div>
+                  
+          <!-- Portfolio Card 4 -->
+          <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
+            <img src="assets/images/portfolio-icons_train-scheduler.png" class="card-img-top" alt="Train Scheduler">
+            <div class="card-body">
+              <h5 class="card-title">Train Scheduler</h5>
+              <p class="card-text">Arrival and departure data for the Hogwarts Express.</p>
+              <a href="https://emmastotz.github.io/train-scheduler/" class="btn btn-primary">SEE PROJECT</a>
+            </div>
+          </div>
+      
+          <!-- Portfolio Card 5 -->
+          <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
+            <img src="assets/images/portfolio-icons_GIF.png" class="card-img-top" alt="Giftastic">
+            <div class="card-body">
+              <h5 class="card-title">Giftastic</h5>
+              <p class="card-text">Because choosy moms choose gif.</p>
+              <a href="https://emmastotz.github.io/giftastic/" class="btn btn-primary">SEE PROJECT</a>
+            </div>
+          </div>
+      
+          <!-- Portfolio Card 6 -->
+          <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
+            <img src="assets/images/portfolio-icons_netflix-and-chill.png" class="card-img-top" alt="Date Night App">
+            <div class="card-body">
+              <h5 class="card-title">Netflix & Chill</h5>
+              <p class="card-text">The Date Night Solution</p>
+              <a href="https://emmastotz.github.io/netflix-and-chill/" class="btn btn-primary">SEE PROJECT</a>
+            </div>
+          </div>
+
+          <!-- Portfolio Card 7 -->
+          <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
+            <img src="assets/images/portfolio-icons_gari.png" class="card-img-top" alt="GARI">
+            <div class="card-body">
+              <h5 class="card-title">GARI</h5>
+              <p class="card-text">Meet GARI, the Gibberish Analysis and Recognition Interface</p>
+              <a href="https://github.com/emmastotz/gari-node-app/" class="btn btn-primary">SEE PROJECT</a>
+            </div>
+          </div>
+
+          <!-- Portfolio Card 8 -->
+          <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
+            <img src="assets/images/portfolio-icons_siren.png" class="card-img-top" alt="siren-logo">
+            <div class="card-body">
+              <h5 class="card-title">Siren</h5>
+              <p class="card-text">Siren is a CLI storefront that uses Node.js and MySQL.</p>
+              <a href="https://github.com/emmastotz/siren/" class="btn btn-primary">SEE PROJECT</a>
+            </div>
+          </div>
+
+          <!-- Portfolio Card 9 -->
+          <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
+            <img src="assets/images/portfolio-icons_chum-bucket.png" class="card-img-top" alt="Chum Bucket Logo">
+            <div class="card-body">
+              <h5 class="card-title">Chum Bucket</h5>
+              <p class="card-text">Find the right chum. Don't get catfished.</p>
+              <a href="https://immense-wave-93212.herokuapp.com/" class="btn btn-primary">SEE PROJECT</a>
+            </div>
+          </div>
+
+          <!-- Portfolio Card 10 -->
+          <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
+            <img src="assets/images/portfolio-icons_chzbgr.png" class="card-img-top" alt="CHZBGR Logo">
+            <div class="card-body">
+              <h5 class="card-title">CHZBGR</h5>
+              <p class="card-text">CHZBGR is a restaurant app that lets users input the names of burgers they'd like to eat.</p>
+              <a href="https://evil-ghoul-08418.herokuapp.com/" class="btn btn-primary">SEE PROJECT</a>
+            </div>
+          </div>
+
+          <!-- Portfolio Card 11 -->
+          <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
+            <img src="assets/images/portfolio-icons_chzbgr-sequel.png" class="card-img-top" alt="CHZBGR Sequel Logo">
+            <div class="card-body">
+              <h5 class="card-title">CHZBGR the Sequel</h5>
+              <p class="card-text">A sequelized version of CHZBGR</p>
+              <a href="https://emmastotz.github.io/chzbgr-the-sequel/" class="btn btn-primary">SEE PROJECT</a>
+            </div>
+          </div>
+
+          <!-- Portfolio Card 12 -->
+          <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
+            <img src="assets/images/portfolio-icons_block.png" class="card-img-top" alt="Block Logo">
+            <div class="card-body">
+              <h5 class="card-title">Block</h5>
+              <p class="card-text">Access your student schedule from anywhere.</p>
+              <a href="https://emmastotz.github.io/project-2/" class="btn btn-primary">SEE PROJECT</a>
+            </div>
+          </div>
+
+          <!-- Portfolio Card 13 -->
+          <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
+            <img src="assets/images/portfolio-icons_scrappy.png" class="card-img-top" alt="Scrappy Logo">
+            <div class="card-body">
+              <h5 class="card-title">Scrappy</h5>
+              <p class="card-text">Scrape the New York Times</p>
+              <a href="https://floating-garden-71743.herokuapp.com/" class="btn btn-primary">SEE PROJECT</a>
+            </div>
+          </div>
+
+          <!-- Portfolio Card 14 -->
+          <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
+            <img src="assets/images/portfolio-icons_memeory.png" class="card-img-top" alt="Memeory">
+            <div class="card-body">
+              <h5 class="card-title">MEMEory</h5>
+              <p class="card-text">Remember that game, Memory?</p>
+              <a href="https://emmastotz.github.io/MEMEory/" class="btn btn-primary">SEE PROJECT</a>
+            </div>
+          </div>
+
+          <!-- Portfolio Card 15 -->
+          <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
+            <img src="assets/images/portfolio-icons_meread.png" class="card-img-top" alt="MeRead Logo">
+            <div class="card-body">
+              <h5 class="card-title">MEREAD</h5>
+              <p class="card-text">Lightspeed readme generator</p>
+              <a href="https://emmastotz.github.io/meread/" class="btn btn-primary">SEE PROJECT</a>
+            </div>
+          </div>
+                  
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End Regular Container -->
+
+    <!-- Fluid Container 2 -->
+    <div class="container-fluid2">
+        <!-- Footer -->
+        <div class="row">
+            <div class="col-sm-12">
+                <footer>copyright</footer>
             </div>
         </div>
-        <!-- End Fluid Container 1 -->
-
-        <!-- Regular Container -->
-        <div class="container-portfolio">
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    
-                    <!-- First Row -->
-                    <div class="row">
-                
-                        <!-- Portfolio Card 1 -->
-                        <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
-                            <img src="assets/images/Portfolio-Icons_Hangman.png" class="card-img-top" alt="Replace the Space">
-                            <div class="card-body">
-                                <h5 class="card-title">Replace the Space</h5>
-                                <p class="card-text">Spaced-themed hangman. Find out if you can win in a game of Replace the Space?</p>
-                                <a href="https://emmastotz.github.io/replace-the-space/" class="btn btn-primary">SEE PROJECT</a>
-                            </div>
-                        </div>
-
-                        <!-- Portfolio Card 2 -->
-                        <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
-                            <img src="assets/images/Portfolio-Icons_Trivia.png" class="card-img-top" alt="Trivia">
-                            <div class="card-body">
-                                <h5 class="card-title">Trivia</h5>
-                                <p class="card-text">How much do you know about everyone's favorite sitcom 'Friends'?</p>
-                                <a href="https://emmastotz.github.io/trivia-game/" class="btn btn-primary">SEE PROJECT</a>
-                            </div>
-                        </div>
-                    
-                        <!-- Portfolio Card 3 -->
-                        <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
-                            <img src="assets/images/portfolio-icons_gem-collector.png" class="card-img-top" alt="Gem Collector">
-                            <div class="card-body">
-                                <h5 class="card-title">Gem Collector</h5>
-                                <p class="card-text">Click on the crystals to match the number. Be careful, if you go over, you lose.</p>
-                                <a href="https://emmastotz.github.io/crystal-collector/" class="btn btn-primary">SEE PROJECT</a>
-                            </div>
-                        </div>
-                        
-                        <!-- Portfolio Card 4 -->
-                        <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
-                            <img src="assets/images/portfolio-icons_train-scheduler.png" class="card-img-top" alt="Train Scheduler">
-                            <div class="card-body">
-                                <h5 class="card-title">Train Scheduler</h5>
-                                <p class="card-text">Arrival and departure data for the Hogwarts Express.</p>
-                                <a href="https://emmastotz.github.io/train-scheduler/" class="btn btn-primary">SEE PROJECT</a>
-                            </div>
-                        </div>
-            
-                        <!-- Portfolio Card 5 -->
-                        <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
-                            <img src="assets/images/portfolio-icons_GIF.png" class="card-img-top" alt="Giftastic">
-                            <div class="card-body">
-                                <h5 class="card-title">Giftastic</h5>
-                                <p class="card-text">Because choosy moms choose gif.</p>
-                                <a href="https://emmastotz.github.io/giftastic/" class="btn btn-primary">SEE PROJECT</a>
-                            </div>
-                        </div>
-            
-                        <!-- Portfolio Card 6 -->
-                        <div class="col-sm-12 col-md-6 col-lg-4 card" style="width: 18rem;">
-                            <img src="assets/images/portfolio-icons_netflix-and-chill.png" class="card-img-top" alt="Graphic Design">
-                            <div class="card-body">
-                                <h5 class="card-title">Netflix & Chill</h5>
-                                <p class="card-text">The Date Night Solution</p>
-                                <a href="https://emmastotz.github.io/netflix-and-chill/" class="btn btn-primary">SEE PROJECT</a>
-                            </div>
-                        </div>
-                        
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- End Regular Container -->
-
-        <!-- Fluid Container 2 -->
-        <div class="container-fluid2">
-            <!-- Footer -->
-            <div class="row">
-                <div class="col-sm-12">
-                    <footer>copyright</footer>
-                </div>
-            </div>
-            <!-- End Footer -->
-        </div>
-        <!-- End Fluid Container 2 -->
-    
-    </body>
+        <!-- End Footer -->
+    </div>
+    <!-- End Fluid Container 2 -->
+  
+  </body>
 </html>

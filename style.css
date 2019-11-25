@@ -62,6 +62,10 @@ footer {
   color: rgb(201, 201, 201);
   background-color: rgb(50, 50, 50);
   padding: 22px;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 h6 {
